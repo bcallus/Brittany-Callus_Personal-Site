@@ -1,11 +1,11 @@
 import React from 'react';
+import Navbar from './components/Navbar';
 
 const App = () => {
 
     return (
-        <h1>PLACEHOLDER</h1>
+        <Navbar />
     )
-    
 }
 
 export default App;
