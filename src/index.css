@@ -3,6 +3,8 @@
 * {
     font-family: 'Marcellus', serif;
     box-sizing: border-box;
+    background-color: black;
+    color: white;
 }
 
 .navbar {
