@@ -11,11 +11,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .navbar-tabs {
     display: flex;
-    gap: 1rem;
+    gap: 5rem;
 }
+
+navbar-tabs, li {
+    list-style-type: none;
+    }
+
+navbar-tabs, a {
+    text-decoration: none;
+    }
