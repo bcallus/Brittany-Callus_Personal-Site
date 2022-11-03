@@ -27,3 +27,8 @@ navbar-tabs, li {
 navbar-tabs, a {
     text-decoration: none;
     }
+
+.headshot {
+    max-width: 30rem;
+    clip-path: circle();
+}
