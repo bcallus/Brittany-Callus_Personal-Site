@@ -37,4 +37,20 @@ navbar-tabs, a {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 800px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.home-page-intro-text {
+    text-align: center;
+}
+
+.home-page-intro-text > h1 {
+    font-size: 3rem;
+}
+
+.home-page-intro-text > p {
+    font-size: 1.5rem;
 }
