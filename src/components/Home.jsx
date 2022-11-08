@@ -4,11 +4,11 @@ import headshot from '../assets/headshot.JPG'
 const Home = () => {
 
     return (
-        <div>
-            <h1>Home Test</h1>
-            <h1>Hello</h1>
-            <p>I'm Brittany Callus</p>
-            <p>the full stack developer - the sales manager - the musician</p>
+        <div className='home-page-elements'>
+            <div className="home-page-intro-text">
+                <h1>Hello, I'm Brittany Callus.</h1>
+                <p>I'm a full stack developer.</p> 
+            </div>
             <img src={headshot} alt='headshot' className='headshot'/>
         </div>
         

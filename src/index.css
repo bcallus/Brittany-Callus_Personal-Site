@@ -32,3 +32,9 @@ navbar-tabs, a {
     max-width: 30rem;
     clip-path: circle();
 }
+
+.home-page-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
