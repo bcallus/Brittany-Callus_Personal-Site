@@ -55,7 +55,7 @@ navbar-tabs, a {
     font-size: 1.5rem;
 }
 
-.about-page-collapsible-section {
+.collapsible {
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -65,6 +65,6 @@ navbar-tabs, a {
     font-size: 15px;
   }
 
-  .active, .about-page-collapsible-section:hover {
+  .active, .collapsible:hover {
     color: rgb(160, 160, 160);
   }
