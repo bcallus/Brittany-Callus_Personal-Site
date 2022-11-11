@@ -12,9 +12,7 @@ const Collapsible = (props) => {
         <div>
             <button onClick={toggle}>{props.label}</button>
             {open && (
-                <div className="toggle">
-                    <h4>toggle</h4>
-                </div>
+                <div className="toggle">{props.children}</div>
             )}
         </div>
     )
