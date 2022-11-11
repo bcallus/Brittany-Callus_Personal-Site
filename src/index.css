@@ -68,3 +68,9 @@ navbar-tabs, a {
   .active, .collapsible:hover {
     color: rgb(160, 160, 160);
   }
+
+  /*to flex or not to flex? maybe add images first.*/
+  /* .about-collapsibles {
+    display: flex;
+    justify-content: center;
+  } */
