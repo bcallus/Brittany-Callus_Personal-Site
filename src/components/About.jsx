@@ -1,9 +1,20 @@
 import React from 'react';
+import Collapsible from './Collapsible'
+
 
 const About = () => {
 
     return (
         <div>
+            <Collapsible label="Education" />
+            <hr />
+            <Collapsible label="Professional Experience"/>
+            <hr />
+            <Collapsible label="Mission"/>
+            <hr />
+            <Collapsible label="Personal Life"/>
+            <hr />
+
             {/* build react component and use state to make collapsible sections for the about me */}
             <button type="button" className="about-page-collapsible-section">Education</button>
             <div className="about-page-collapsible-content">
