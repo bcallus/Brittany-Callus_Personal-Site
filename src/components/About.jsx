@@ -1,11 +1,20 @@
 import React from "react";
 import Collapsible from "./Collapsible";
+import UNF_Logo from '../assets/UNF_Logo.png'
+import FullstackAcademy_Logo from '../assets/FullstackAcademy_logo.jpeg'
+import NorthwesternUniversity_Logo from '../assets/NorthwesternUniversity_Logo.gif'
 
 const About = () => {
   return (
     <div className="about-collapsibles">
       <Collapsible label="Education">
         <p>{`I am a graduate of the University of North Florida's Division of Continuing Education's web development program, which is powered by Fullstack Academy. I have proficiencies and experience in developing full stack web applications using HTML, CSS, JavaScript, React JS, Node JS, Express JS, SQL, and PostgreSQL. See Skills for a more detailed list.`}</p>
+        <p>{`I also earned 35/45 credits towards a Bachelor Degree at Northwestern University.`}</p>
+        <div>
+          <img src={UNF_Logo} alt='UNF Logo' />
+          <img src={FullstackAcademy_Logo} alt='UNF Logo' />
+          <img src={NorthwesternUniversity_Logo} alt='UNF Logo'/>
+        </div>
       </Collapsible>
       
       <Collapsible label="Professional Experience">

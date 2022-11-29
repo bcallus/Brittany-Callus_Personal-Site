@@ -82,10 +82,12 @@ navbar-tabs, a {
   .about-collapsibles, p {
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 5%;
     text-align: center;
     width: 80%;
   }
 
   .collapsible {
     text-align: center;
+    font-size: 2.5vw;
   }
