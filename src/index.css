@@ -69,8 +69,23 @@ navbar-tabs, a {
     color: rgb(160, 160, 160);
   }
 
-  /*to flex or not to flex? maybe add images first.*/
-  /* .about-collapsibles {
+
+.about-collapsibles {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-  } */
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .about-collapsibles, p {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    width: 80%;
+  }
+
+  .collapsible {
+    text-align: center;
+  }
