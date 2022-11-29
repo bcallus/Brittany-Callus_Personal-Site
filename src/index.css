@@ -91,3 +91,15 @@ navbar-tabs, a {
     text-align: center;
     font-size: 2.5vw;
   }
+
+  .school-logos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+  }
+
+  .school-logo {
+    max-width: 8rem;
+    clip-path: circle();
+    object-fit: cover;
+  }
