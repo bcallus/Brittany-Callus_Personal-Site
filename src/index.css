@@ -103,3 +103,7 @@ navbar-tabs, a {
     clip-path: circle();
     object-fit: cover;
   }
+
+  .job-history {
+    text-align: start;
+  }
