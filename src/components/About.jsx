@@ -2,7 +2,7 @@ import React from "react";
 import Collapsible from "./Collapsible";
 import UNF_Logo from '../assets/UNF_Logo.png'
 import FullstackAcademy_Logo from '../assets/FullstackAcademy_logo.jpeg'
-import NorthwesternUniversity_Logo from '../assets/NorthwesternUniversity_Logo.gif'
+import NorthwesternUniversity_Logo from '../assets/NorthwesternUniversity_Logo.png'
 
 const About = () => {
   return (

@@ -94,14 +94,14 @@ navbar-tabs, a {
 
   .school-logos {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 5%;
   }
 
   .school-logo {
     max-width: 8rem;
-    clip-path: circle();
-    object-fit: cover;
+    border-radius: 25px;
+    object-fit: fill;
   }
 
   .job-history {
