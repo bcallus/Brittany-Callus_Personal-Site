@@ -21,14 +21,24 @@ const About = () => {
         <p>{`I have been a studio manager with a focus in sales for the past 5 years in the fitness/health & wellness industry. Prior to that I was an administrative assistant for a company that specialized in forensic data analysis, and that’s where I began building my full stack development skills.`}</p>
         <ul className="job-history">
           <div className="job">
-          <li>Studio Manager @ Degree Wellness - Jacksonville, FL | March 2020 - Sept 2022 </li>
+            <li>
+              <p>Studio Manager</p>
+              <p>Degree Wellness</p>
+              <p>Jacksonville, FL</p>
+              <p>March 2020 - Sept 2022</p>
+            </li>
             <ul>
               <li>Aligned and directed medical staff and sales team to drive sales and increase revenue.</li>
               <li>Maintained and monitored accounts of 400+ members and clients while providing excellent customer service and experience.</li>
             </ul>
           </div>
           <div className="job">
-          <li>Studio Manager @ Orangetheory Fitness - Jacksonville, FL | March 2018 - March 2020</li>
+            <li>
+              <p>Studio Manager</p>
+              <p>Orangetheory Fitness</p>
+              <p>Jacksonville, FL</p>
+              <p>March 2018 - March 2020</p>
+            </li>
             <ul>
               <li>Achieved #4 ranking of overall sales growth out of all OTF studios in the state of Florida in 2019.</li>
               <li>Cultivated, led, and motivated a team of 20+ employees and 700+ members of whom I knew all on a first name basis.</li>
@@ -36,7 +46,12 @@ const About = () => {
             </ul>
           </div>
           <div className="job">
-          <li>Administrative Assistant @ Advanced Forensic Analytical Systems, LLC - Marshall, VA & Remote | January 2016 - March 2020</li>
+            <li>
+              <p>Administrative Assistant</p>
+              <p>Advanced Forensic Analytical Systems, LLC</p>
+              <p>Marshall, VA & Remote</p>
+              <p>January 2016 - March 2020</p>
+            </li>
             <ul>
               <li>Boosted productivity by aiding and supporting data analysts as needed.</li>
               <li>Assisted in approving payroll, expense reports, and travel arrangements.</li>
@@ -44,7 +59,12 @@ const About = () => {
             </ul>
           </div>
           <div className="job">
-          <li>Administrative Assistant @ Isurus Solutions - New York, NY | January 2012 - January 2016</li>
+            <li>
+              <p>Administrative Assistant</p>
+              <p>Isurus Solutions</p>
+              <p>New York, NY</p>
+              <p>January 2012 - January 2016</p>
+            </li>
             <ul>
               <li>Managed payroll, expense reports, and travel arrangements.</li>
               <li>Organized general office duties such as word processing, copying, filing, data entry.</li>
