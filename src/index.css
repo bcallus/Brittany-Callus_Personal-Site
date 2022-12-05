@@ -106,4 +106,9 @@ navbar-tabs, a {
 
   .job-history {
     text-align: start;
+    display: flex;
+  }
+
+  .job  {
+    border: white 1px solid;
   }
