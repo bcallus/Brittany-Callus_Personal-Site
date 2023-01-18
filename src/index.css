@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Marcellus&display=swap');
 
 * {
     font-family: 'Marcellus', serif;
@@ -141,4 +142,11 @@
 
   .job-location {
     font-size: 12px;
+  }
+
+  .current-mission {
+    background-color: rgb(65, 7, 7);
+    font-family: 'Black Ops One', serif;
+    font-size: 20px;
+    padding: 1rem;
   }
