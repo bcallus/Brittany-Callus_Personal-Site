@@ -4,6 +4,9 @@ import UNF_Logo from '../assets/UNF_Logo.png'
 import FullstackAcademy_Logo from '../assets/FullstackAcademy_logo.jpeg'
 import NorthwesternUniversity_Logo from '../assets/NorthwesternUniversity_Logo.png'
 import NUSO from '../assets/NUSO.JPG'
+import Fitness1 from '../assets/Fitness1.jpg'
+import Fitness2 from '../assets/Fitness2.jpg'
+import Fitness3 from '../assets/Fitness3.jpg'
 
 const About = () => {
   return (
@@ -90,6 +93,11 @@ const About = () => {
         <p>{`From the age of 5 up until my early 20s, much of my youth was spent studying and performing as a classically trained violinist and violist. I was a member of the New York Youth Symphony for many years, and attended Northwestern Univeristy as a Music Performace major, where I studied viola performance under Roland Vamos.`}</p>
         <img src={NUSO} alt='Northwestern University Symphony Orchestra' className='nuso-img'/>
         <p>{`I am an fitness enthusiast and advocate. I was a student athlete on the swim team in my youth and refound my love for fitness as an adult. I enjoy working hard and am rewarded by a higher quality of life, not just physically, but mentally and emotionally as well. It allows me to hold myself to a high standard where I can practice discipline and consistently strive for improvement in whatever areas I choose. Don't belive me? Try a Spartan Race some time! You just might have fun.`}</p>
+        <div className='fitness-images'>
+          <img src={Fitness1} alt='Official Spartan Race Obstacle' className='fitness-image'/>
+          <img src={Fitness2} alt='Fitness Selfie' className='fitness-image'/>
+          <img src={Fitness3} alt='Offical Spartan Race Bucket Carry Obstacle' className='fitness-image'/>
+        </div>
       </Collapsible>
     </div>
   );

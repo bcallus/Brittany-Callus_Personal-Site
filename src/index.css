@@ -157,3 +157,13 @@
     margin-right: auto;
     margin-bottom: 5%;
   }
+
+  .fitness-images {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .fitness-image {
+    max-width: 15rem;
+  }
