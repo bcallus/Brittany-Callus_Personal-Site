@@ -3,6 +3,7 @@ import Collapsible from "./Collapsible";
 import UNF_Logo from '../assets/UNF_Logo.png'
 import FullstackAcademy_Logo from '../assets/FullstackAcademy_logo.jpeg'
 import NorthwesternUniversity_Logo from '../assets/NorthwesternUniversity_Logo.png'
+import NUSO from '../assets/NUSO.JPG'
 
 const About = () => {
   return (
@@ -87,6 +88,7 @@ const About = () => {
       
       <Collapsible label="Personal Life">
         <p>{`From the age of 5 up until my early 20s, much of my youth was spent studying and performing as a classically trained violinist and violist. I was a member of the New York Youth Symphony for many years, and attended Northwestern Univeristy as a Music Performace major, where I studied viola performance under Roland Vamos.`}</p>
+        <img src={NUSO} alt='Northwestern University Symphony Orchestra' className='nuso-img'/>
         <p>{`I am an fitness enthusiast and advocate. I was a student athlete on the swim team in my youth and refound my love for fitness as an adult. I enjoy working hard and am rewarded by a higher quality of life, not just physically, but mentally and emotionally as well. It allows me to hold myself to a high standard where I can practice discipline and consistently strive for improvement in whatever areas I choose. Don't belive me? Try a Spartan Race some time! You just might have fun.`}</p>
       </Collapsible>
     </div>
