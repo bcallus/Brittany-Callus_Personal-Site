@@ -1,4 +1,6 @@
-import CoffeeTea_Project from '../assets/CoffeeTea_Project.png'
+import CoffeeTea_Project from '../assets/CoffeeTea_Project.png';
+import StrangersThings_Project from '../assets/StrangersThings_Project.png';
+import TheArcade_Project from '../assets/TheArcade_Project.png';
 
 const projectData = [
   {
@@ -13,13 +15,13 @@ const projectData = [
   {
     id: 2,
     name: "Stranger's Things",
-    img: "project image url",
+    img: StrangersThings_Project,
     description: "This is a brief description of Project Two.",
   },
   {
     id: 3,
     name: "The Arcade",
-    img: "project image url",
+    img: TheArcade_Project,
     description: "This is a brief description of Project Two.",
   },
 ];
