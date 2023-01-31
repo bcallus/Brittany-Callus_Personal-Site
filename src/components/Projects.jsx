@@ -1,5 +1,5 @@
 import React, { useEffect }  from 'react';
-import projectsData from '../data/projectsData.js'
+import projectsData from '../data/projectsData.js';
 
 const Projects = () => {
     const projectsList = projectsData;
@@ -13,8 +13,9 @@ const Projects = () => {
                 {projectsList.map((project) => (
                     <div key={project.id}>
                         <p>{project.name}</p>
-                        <p>Project Image - use img tag</p>
+                        <img src={project.img} alt={project.name} className='project-image'/>
                         <p>{project.description}</p>
+                        <p>{project.techStack}</p>
                         <button>View Project</button>
                 </div>
                 ))}
