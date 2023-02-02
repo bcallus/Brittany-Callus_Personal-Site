@@ -1,5 +1,7 @@
 import React from 'react';
 import projectsData from '../data/projectsData.js';
+import { Link } from 'react-router-dom';
+
 
 const Projects = () => {
     const projectsList = projectsData;
@@ -13,7 +15,9 @@ const Projects = () => {
                         <img src={project.img} alt={project.name} className='project-image' />
                         <p className='project-description'>{project.description}</p>
                         <p className='project-techStack'>{project.techStack}</p>
-                        <button>View Project</button>
+                        <a href={project.projectURL}>
+                            <button>View Project</button>
+                        </a>
                 </div>
                 ))}
             </div>

@@ -193,8 +193,11 @@
     text-indent: 50px;
   }
 
-  .project-card button {
+  .project-card a {
     margin: auto;
+  }
+
+  a button {
     padding: .5rem;
   }
 

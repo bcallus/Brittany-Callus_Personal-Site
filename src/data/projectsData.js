@@ -10,7 +10,8 @@ const projectData = [
     description:
       "Coffee & Tea is a basic e-commerce web application that allows any user to browse and/or purchase from a variety of high quality coffee and teas. Additional capabilities open up to registered users, and site maintenance capabilities do exist but are restricted to administrator access only.",
     techStack:
-      "Languages & Technologies Used: HTML, CSS, Javascript, Node, NPM, SQL, PostgreSQL, React JS, Express JS, Git, GitHub Projects, Slack, Zoom, Discord"
+      "Languages & Technologies Used: HTML, CSS, Javascript, Node, NPM, SQL, PostgreSQL, React JS, Express JS, Git, GitHub Projects, Slack, Zoom, Discord",
+    projectURL: "https://www.youtube.com/watch?v=SPbeS-u1Nwg"
   },
   {
     id: 2,
@@ -19,7 +20,8 @@ const projectData = [
     description:
       '"Craigslist-lite” style front end application designed to allow a user to navigate through posts and corresponding messages.',
     techStack:
-      "Languages & Technologies Used: HTML, CSS, Javascript, AJAX, React JS, GitHub, Netlify."
+      "Languages & Technologies Used: HTML, CSS, Javascript, AJAX, React JS, GitHub, Netlify.",
+    projectURL: "https://imaginative-cocada-d9e2b8.netlify.app/"
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ const projectData = [
       "Classic arcade came “Snake” where the perpetually moving snake grows and becomes faster upon eating apples but achieves game over if it hits or runs into something else.",
     techStack:
       "Languages & Technologies Used: HTML, CSS, Javascript, DOM manipulation, GitHub, Netlify.",
+    projectURL: "https://capable-queijadas-e210a5.netlify.app/"
   },
 ];
 
