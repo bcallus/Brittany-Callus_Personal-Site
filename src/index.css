@@ -81,6 +81,7 @@
   }
 
   .about-collapsibles p {
+    text-indent: 50px;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
@@ -178,6 +179,27 @@
   }
 
   .project-card {
+    display: flex;
+    flex-direction: column;
     max-width: 25rem;
     margin: 2rem;
+  }
+
+  .project-description  {
+    text-indent: 50px;
+  }
+
+  .project-techStack {
+    text-indent: 50px;
+  }
+
+  .project-card button {
+    margin: auto;
+    padding: .5rem;
+  }
+
+  .project-name {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
   }
