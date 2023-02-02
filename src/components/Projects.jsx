@@ -1,17 +1,14 @@
-import React, { useEffect }  from 'react';
+import React from 'react';
 import projectsData from '../data/projectsData.js';
 
 const Projects = () => {
     const projectsList = projectsData;
-    // useEffect(() => {
-    //     console.log("projectsList", projectsList)
-    // }, [])
 
     return (
         <div>
             <div className="project-card-container">
                 {projectsList.map((project) => (
-                    <div key={project.id}>
+                    <div className='project-card' key={project.id}>
                         <p>{project.name}</p>
                         <img src={project.img} alt={project.name} className='project-image'/>
                         <p>{project.description}</p>

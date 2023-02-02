@@ -171,3 +171,13 @@
   .project-image {
     max-width: 25rem;
   }
+
+  .project-card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .project-card {
+    max-width: 25rem;
+    margin: 2rem;
+  }
