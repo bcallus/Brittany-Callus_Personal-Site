@@ -206,3 +206,7 @@
     font-weight: 900;
     text-align: center;
   }
+
+  .skill-logo-image {
+    max-width: 5rem;
+  }
