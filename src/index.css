@@ -218,9 +218,14 @@
   }
 
   .skill-name {
-    width: 5rem;
-    height: 5rem;
+    width: 8rem;
+    height: 8rem;
     text-align: center;
     border: solid white 1px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    line-height: 18px;
   }
