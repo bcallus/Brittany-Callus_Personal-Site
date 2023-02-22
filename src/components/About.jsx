@@ -22,7 +22,7 @@ const About = () => {
       </Collapsible>
       
       <Collapsible label="Professional Experience">
-        <p>{`I have been in management with a focus in sales for the past 5 years in the fitness/health & wellness industry. Prior to that I was an administrative assistant for a company that specialized in forensic data analysis, and that’s where I began building my full stack development skills.`}</p>
+        <p>{`I've held positions in management with a focus in sales for the past 5 years in the fitness/health & wellness industry. Prior to that I was an administrative assistant for a company that specialized in forensic data analysis, and that’s where I began building my full stack development skills.`}</p>
         <ul className="job-history">
           
           <div className="job">
