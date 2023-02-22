@@ -78,6 +78,7 @@
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 5%;
   }
 
   .about-collapsibles p {
@@ -174,8 +175,11 @@
   }
 
   .project-card-container {
+    margin-top: 5%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 
   .project-card {
@@ -212,10 +216,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 5rem;
-  }
-
-  .skills-cards {
-    /* justify-content: space-between; */
+    margin-top: 5%;
   }
 
   .skill-name {
