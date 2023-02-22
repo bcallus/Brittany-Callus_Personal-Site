@@ -1,41 +1,76 @@
-import HTML5_logo from '../assets/HTML5_logo.png'
-import CSS_logo from '../assets/CSS_logo.png'
-import Javascript_logo from '../assets/Javascript_logo.png'
-import REST_image from '../assets/REST_image.png'
-import React_logo from '../assets/React_logo.png'
-import Node_logo from '../assets/Node_logo.png'
-
 
 const skillsData = [
     {
         id: 1,
-        name: 'HTML',
-        img: HTML5_logo
+        name: 'HTML'
     },
     {
         id: 2,
-        name: 'CSS',
-        img: CSS_logo
+        name: 'CSS'
     },
     {
         id: 3,
-        name: 'Javascript',
-        img: Javascript_logo
+        name: 'Javascript'
     },
     {
         id: 4,
-        name: 'RESTful API Development',
-        img: REST_image
+        name: 'RESTful API Development'
     },
     {
         id: 5,
-        name: 'React JS',
-        img: React_logo
+        name: 'React JS'
     },
     {
         id: 6,
-        name: 'Node JS',
-        img: Node_logo
+        name: 'Node JS'
+    },
+    {
+        id: 7,
+        name: 'NPM'
+    },
+    {
+        id: 8,
+        name: 'AJAX'
+    },
+    {
+        id: 9,
+        name: 'Express JS'
+    },
+    {
+        id: 10,
+        name: 'SQL'
+    },
+    {
+        id: 11,
+    name: 'PostgreSQL'
+    },
+    {
+        id: 12,
+        name: 'Microsoft Visual Studio Code'
+    },
+    {
+        id: 13,
+        name: 'Git'
+    },
+    {
+        id: 14,
+        name: 'GitHub'
+    },
+    {
+        id: 15,
+        name: 'GitHub Projects'
+    },
+    {
+        id: 16,
+        name: 'Adobe Photoshop'
+    },
+    {
+        id: 17,
+        name: 'Agile Methodology'
+    },
+    {
+        id: 14,
+        name: 'Test Driven Development'
     },
 ]
 
