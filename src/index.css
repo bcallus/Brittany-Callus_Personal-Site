@@ -210,11 +210,12 @@
   .skills-cards-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 5rem;
   }
 
   .skills-cards {
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
   .skill-name {
@@ -222,6 +223,7 @@
     height: 8rem;
     text-align: center;
     border: solid white 1px;
+    background-color: rgb(127, 195, 240);
     border-radius: 50%;
     display: flex;
     justify-content: center;
